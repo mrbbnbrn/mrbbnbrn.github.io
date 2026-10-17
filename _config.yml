@@ -1,0 +1,3 @@
+# The site is served without Jekyll (.nojekyll), which already publishes dot-folders.
+# Kept so .well-known/ (Android App Links: assetlinks.json) is still published if Jekyll is ever turned on.
+include: [".well-known"]
